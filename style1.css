@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+
+
+}
+
+.Articulo {
+    background-color: blueviolet;
+    width: 700px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+    border: 2px solid #333;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+h1{
+    color: rgb(184, 76, 235);
+    
+}
+
+h2 {
+    color: rgb(245, 39, 217);
+    font-size: 25px;
+}
+
+C{
+    color: rgb(152, 10, 187);
+    font-size: 20px;
+}
+D{
+    color: rgb(152, 10, 187);
+    font-size: 19px;
+}
+button{
+    font-style:italic;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+body{
+    background-color: rgb(245, 136, 230);
+}
+
+.header{
+    background-color: rgb(210, 146, 216);
+        height: 80px;
+        width: auto;
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+    .header .logo img{
+        height: 80px;
+        width: auto;
+        border-radius: 100%;
+        padding: 10px;
+        transition: 0.4s;
+    }
+    .header .logo img:hover{
+        transform: scale(1.2);
+    }
+    .header nav ul {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        padding: 0; 
+    }
+    .header nav li{
+        margin-right: 20px;
+    }
+    .header .nav-links a{
+        font-size: 23px;
+        color: #eceff1;
+        text-decoration: none;    
+    }
+    
+    .header .nav-links li a:hover{
+        color: rgb(240, 168, 228);
+    }
+    .header .btn button{
+        color: #000000;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    .header .btn button:hover{
+        transform: scale(1.1);
+    }
